@@ -1,0 +1,83 @@
+\contentsline {chapter}{\numberline {1}F\IeC {\"o}rord}{1}
+\contentsline {chapter}{\numberline {2}Inneh\IeC {\r a}llsf\IeC {\"o}rteckning}{2}
+\contentsline {chapter}{\numberline {3}H\IeC {\"o}gtidliga s\IeC {\r a}nger}{5}
+\contentsline {section}{Nationals\IeC {\r a}ngen (Du gamla, du fria)}{6}
+\contentsline {section}{OPEN \IeC {\"a}r v\IeC {\r a}rt val}{6}
+\contentsline {section}{Internationalen}{8}
+\contentsline {section}{Students\IeC {\r a}ngen}{10}
+\contentsline {section}{Kungss\IeC {\r a}ngen}{11}
+\contentsline {section}{O, gamla klang- och jubeltid}{12}
+\contentsline {chapter}{\numberline {4}Gasquevisor}{15}
+\contentsline {section}{Porthos visa}{16}
+\contentsline {section}{Liljekonvaljen}{16}
+\contentsline {section}{Kalmarevisan}{16}
+\contentsline {section}{Jag har aldrig vart p\IeC {\r a} snusen}{18}
+\contentsline {section}{JAS:en}{19}
+\contentsline {section}{O.D.E. till \IeC {\"o}let}{19}
+\contentsline {section}{Jag skall festa}{20}
+\contentsline {section}{Strejk p\IeC {\r a} pripps}{21}
+\contentsline {section}{Hej p\IeC {\r a} er br\IeC {\"o}der alla}{21}
+\contentsline {section}{H\IeC {\"a}rjarevisan}{21}
+\contentsline {section}{Gasquelj\IeC {\"a}sen}{23}
+\contentsline {section}{En liten bl\IeC {\r a} f\IeC {\"o}rg\IeC {\"a}tmigej}{24}
+\contentsline {chapter}{\numberline {5}Vinvisor}{25}
+\contentsline {section}{Bordeaux, Bordeaux}{26}
+\contentsline {section}{Feta fransyskor}{26}
+\contentsline {section}{S\IeC {\r a} l\IeC {\"a}nge r\IeC {\"o}sten \IeC {\"a}r mild}{27}
+\contentsline {section}{Gammalt br\IeC {\"a}nnvin}{28}
+\contentsline {section}{Mera br\IeC {\"a}nnvin}{28}
+\contentsline {chapter}{\numberline {6}Nubbevisor}{29}
+\contentsline {section}{Mera Sk\IeC {\r a}ne}{30}
+\contentsline {section}{Helan g\IeC {\r a}r}{30}
+\contentsline {section}{Helan gick igenom foten}{30}
+\contentsline {section}{Vikingen}{31}
+\contentsline {section}{M\IeC {\r a}sen}{31}
+\contentsline {section}{Den vingklippta m\IeC {\r a}sen}{32}
+\contentsline {section}{N\IeC {\"a}r jag \IeC {\"a}r fuller}{32}
+\contentsline {section}{Livet \IeC {\"a}r h\IeC {\"a}rligt}{34}
+\contentsline {section}{Mitt lilla l\IeC {\r a}n}{34}
+\contentsline {section}{Uti min mage}{35}
+\contentsline {section}{Vodka, vodka}{35}
+\contentsline {section}{Spritbolaget}{36}
+\contentsline {section}{Imbelupet}{36}
+\contentsline {section}{Hyfsvisa}{37}
+\contentsline {section}{\IeC {\"A}n en g\IeC {\r a}ng d\IeC {\"a}ran}{37}
+\contentsline {section}{O.P River}{39}
+\contentsline {section}{Ub\IeC {\r a}ten}{39}
+\contentsline {section}{Spritnoblessens Dryckesmarsch}{39}
+\contentsline {section}{T\IeC {\"a}nk om jag hade}{40}
+\contentsline {section}{Gr\IeC {\"a}v ur tundran}{41}
+\contentsline {section}{L\IeC {\r a}ngt ner i Sm\IeC {\r a}land}{41}
+\contentsline {section}{Undulaten}{42}
+\contentsline {section}{Wenngarn}{42}
+\contentsline {chapter}{\numberline {7}Punschvisor}{44}
+\contentsline {section}{Punschen kommer}{45}
+\contentsline {section}{Imperial Punsch}{45}
+\contentsline {section}{Djungelpunsch}{45}
+\contentsline {section}{Studiemedelsrondo}{46}
+\contentsline {section}{Vad ger dig sin sisu}{46}
+\contentsline {section}{Simmigt guld}{47}
+\contentsline {section}{Visa vid torsdagskv\IeC {\"a}ll}{47}
+\contentsline {section}{Punschfinalen}{48}
+\contentsline {section}{Punschens Lov}{49}
+\contentsline {section}{Sista punschvisan}{49}
+\contentsline {chapter}{\numberline {8}Fr\IeC {\r a}n andra sektioner}{50}
+\contentsline {section}{V-Ingeng\IeC {\"o}ren}{51}
+\contentsline {section}{Konglig Fysiks Paradhymn}{51}
+\contentsline {chapter}{\numberline {9}\IeC {\"O}vrigt av rang}{53}
+\contentsline {section}{Nu gr\IeC {\"o}nskar det}{54}
+\contentsline {section}{Syst\IeC {\`e}me International}{55}
+\contentsline {section}{Jag vill aldrig g\IeC {\r a} p\IeC {\r a} handels}{55}
+\contentsline {section}{Jag vill aldrig g\IeC {\r a} p\IeC {\r a} fysik}{56}
+\contentsline {section}{L\IeC {\"a}ngtan till landet (Vintern Rasar)}{57}
+\contentsline {section}{Chalmersvisan}{57}
+\contentsline {section}{Ein K\IeC {\"o}nig}{58}
+\contentsline {section}{Frans Michael Franz\IeC {\'e}n Bordsvisa}{59}
+\contentsline {section}{Fredmans S\IeC {\r a}ng N:o 21}{59}
+\contentsline {chapter}{\numberline {10}Matnyttigheter}{61}
+\contentsline {section}{Komplexitetsanalys (tids\IeC {\r a}tg\IeC {\r a}ng)}{62}
+\contentsline {section}{Tredimensionella-tidsberoende Schr\IeC {\"o}dingerekvationen}{62}
+\contentsline {section}{Endimensionella-tidsoberoende Schr\IeC {\"o}dingerekvationen}{62}
+\contentsline {section}{Tsiolkovsky's rocket equation}{62}
+\contentsline {section}{Newton-Raphson}{62}
+\contentsline {section}{Tack}{63}

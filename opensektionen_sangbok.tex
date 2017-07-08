@@ -1,0 +1,344 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Sektionen för Öppen Ingångs Officiella Sångbok, 2016 års upplaga
+% Denna sångbok skrevs av Elias Hachichou, F13, med stöd av:
+% Namn....
+% Namn....
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Detta dokument skrevs med hjälp av Texmaker på ett ubuntu baserat system
+% Utöver de paket som följer med Texmaker användes även dessa:
+
+% För att kunna kompilera så behöver du dessa paket:
+% - Verse
+%	På debian baserade system (bla ubuntu) så kan du mata in detta i terminalen:
+%	sudo apt-get install texlive-humanities
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	DOCUMENT CONFIGURATIONS AND INFORMATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[8pt,twoside]{extreport} % Document font size and paper size
+
+\usepackage{verse} % Required for typesetting poems - this package drives this template
+
+\usepackage[T1]{fontenc} % International character encodings
+\usepackage{palatino} % Use the Palatino font by default
+\usepackage[utf8]{inputenc} % Enables åäö
+\usepackage{titlesec}
+\usepackage{graphicx} % Enables graphics
+\usepackage{float}
+\usepackage{listings} % för att kunna skriva kod i latex (se en liten blå förgätmigej)
+\usepackage{gensymb} % Ger lite extra tecken bla grader ringen
+
+\setlength{\parindent}{0pt} % Disable paragraph indentation
+
+% Author styles \centering
+\newcommand{\poemauthorcenter}[1]{\nopagebreak{\centering\footnotesize\textsc{#1}\par}} % Author as a footnote at the end of the poem center aligned
+\newcommand{\poemauthorright}[1]{\nopagebreak{\raggedleft\footnotesize\textsc{#1}\par}} % Author as a footnote at the end of the poem aligned right
+
+\renewcommand{\poemtitlefont}{\normalfont\bfseries\large\centering} % Define the poem title style
+
+\setlength{\stanzaskip}{0.5\baselineskip} % The distance between stanzas
+
+%----------------------------------------------------------------
+% Removes Chapter from chapter
+\titleformat{\chapter}{\normalfont\huge}{\thechapter.}{20pt}{\huge}
+%----------------------------------------------------------------
+% Changes paper size
+\usepackage[a6paper]{geometry}
+% OBS Bindingoffset ger en alternerande sidmarginal till bindningen
+\geometry{bmargin=2cm, tmargin=2cm, lmargin=1cm, rmargin=1cm, bindingoffset=1cm}
+%---------------------------------------------------------------
+% Package used to format header and footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+% Removes "chapter" from header
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter.\ #1}{}}
+% Changes distance between header and text
+\setlength{\headsep}{5pt}
+% Vertically offsets headers (and overall text)
+\setlength{\voffset}{-10pt}
+% Changes textheight
+\setlength{\textheight}{345pt}
+%---------------------------------------------------------------
+% Removes hyphenation (Ordbrytning)
+\usepackage[none]{hyphenat}
+%---------------------------------------------------------------
+% Graphics path
+\graphicspath{ {./Graphics/} }
+%---------------------------------------------------------------
+% Changes distance between text and floats
+\setlength{\intextsep}{3pt} % Vertical space above & below [h] floats
+\setlength{\textfloatsep}{3pt} % Vertical space below (above) [t] ([b]) floats
+\setlength{\abovecaptionskip}{3pt}
+\setlength{\belowcaptionskip}{3pt}
+%---------------------------------------------------------------
+% Prevents break after poemtitle
+\makeatletter
+\renewcommand{\@vstypeptitle}[1]{%
+  \vspace{\beforepoemtitleskip}
+  {\poemtitlefont #1\par}\nobreak
+  \vspace{\afterpoemtitleskip}
+}
+\makeatother
+%---------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\chapter{Förord}
+
+\input{./Texts/preface.tex}
+
+\newpage
+
+\chapter{Innehållsförteckning}
+\makeatletter
+\@starttoc{toc}
+\makeatother
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Högtidliga visor
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Högtidliga sånger}
+\newpage
+
+\input{./Songs/nationalsangen.tex}
+
+\input{./Songs/open_ar_vart_val.tex}
+
+\newpage
+
+\input{./Songs/internationalen.tex}
+
+\input{./Songs/studentsangen.tex}
+
+\input{./Songs/kungssangen.tex}
+
+\input{./Songs/o_gamla_klang.tex}
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Gasquevisor
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Gasquevisor}
+\newpage
+
+\input{./Songs/porthos_visa.tex}
+
+\input{./Songs/liljekonvaljen.tex}
+
+\input{./Songs/kalmarevisan.tex}
+
+\input{./Songs/jag_har_aldrig.tex}
+
+\newpage
+
+\input{./Songs/jasen.tex}
+
+\input{./Songs/ode_till_olet.tex}
+
+\newpage
+
+\input{./Songs/jag_skall_festa.tex}
+
+\newpage
+
+\input{./Songs/strejk_pa_pripps.tex}
+
+\input{./Songs/hej_pa_er_broder_alla.tex}
+
+\input{./Songs/harjarevisan.tex}
+
+\input{./Songs/gasqueljasen.tex}
+
+\input{./Songs/en_liten_bla_forgatmigej.tex}
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Vinvisor
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Vinvisor}
+
+\newpage
+
+\input{./Songs/bordeaux.tex}
+
+\input{./Songs/feta_fransyskor.tex}
+
+\input{./Songs/sa_lange_rosten_ar_mild.tex}
+
+\newpage
+
+\input{./Songs/gammalt_brannvin.tex}
+
+\input{./Songs/mera_brannvin.tex}
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Nubbevisor
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Nubbevisor}
+\newpage
+
+\input{./Songs/mera_skane.tex}
+
+\input{./Songs/helan.tex}
+
+\input{./Songs/helan_gick.tex}
+
+\input{./Songs/vikingen.tex}
+
+\input{./Songs/masen.tex}
+
+\input{./Songs/den_vingklippta_masen.tex}
+
+\input{./Songs/nar_jag_ar_fuller.tex}
+
+\newpage
+
+\input{./Songs/livet_ar_harligt.tex}
+
+\input{./Songs/mitt_lilla_lan.tex}
+
+\newpage
+
+\input{./Songs/uti_min_mage.tex}
+
+\input{./Songs/vodka_vodka.tex}
+
+\input{./Songs/spritbolaget.tex}
+
+\input{./Songs/imbelupet.tex}
+
+\input{./Songs/hyfsvisa.tex}
+
+\input{./Songs/an_en_gang_daran.tex}
+
+\newpage
+
+\input{./Songs/op_river.tex}
+
+\input{./Songs/ubaten.tex}
+
+\input{./Songs/spritnoblessens_dryckesmarsch.tex}
+
+\input{./Songs/tank_om_jag_hade.tex}
+
+\newpage
+
+\input{./Songs/grav_ur_tundran.tex}
+
+\input{./Songs/langt_ner_i_smaland.tex}
+
+\newpage
+
+\input{./Songs/undulaten.tex}
+
+\input{./Songs/wenngarn.tex}
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Punschvisor
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Punschvisor}
+
+\newpage
+
+\input{./Songs/punschen_kommer.tex}
+
+\input{./Songs/imperial_punsch.tex}
+
+\input{./Songs/djungelpunsch.tex}
+
+\input{./Songs/studiemedelsrondo.tex}
+
+\input{./Songs/vad_ger_dig_din_sisu.tex}
+
+\input{./Songs/simmigt_guld.tex}
+
+\input{./Songs/visa_vid_torsdagskvall.tex}
+
+\input{./Songs/punschfinalen.tex}
+
+\newpage
+
+\input{./Songs/punschen.tex}
+
+\input{./Songs/sista_punschvisan.tex}
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Från andra sektioner
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Från andra sektioner}
+
+\newpage
+
+\input{./Songs/v_ingenjoren.tex}
+
+\input{./Songs/konglig_fysiks_paradhymn.tex}
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Övrigt av rang
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Övrigt av rang}
+
+\newpage
+
+%\input{./Texts/bara_ben.tex}
+
+\input{./Songs/nu_gronskar_det.tex}
+
+\newpage
+
+\input{./Songs/systeme_international.tex}
+
+\input{./Songs/jag_vill_aldrig_ga_pa_handels.tex}
+
+\input{./Songs/jag_vill_aldrig_ga_pa_fysik.tex}
+
+\input{./Songs/langtan_till_landet.tex}
+
+\input{./Songs/chalmersvisan.tex}
+
+\input{./Songs/ein_konig.tex}
+
+\input{./Songs/frans_michael_franzen_bordsvisa.tex}
+
+\input{./Songs/fredmans_sang.tex}
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Matnyttigheter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Matnyttigheter}
+\newpage
+
+\input{./Texts/matnyttigheter.tex}
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Slut!
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
