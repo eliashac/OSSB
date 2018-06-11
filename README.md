@@ -2,7 +2,19 @@
 
 Detta projekt är till för att skapa en bas för sångböcker främst för studentföreningar och i synnerhet Sektionen för Öppen Ingång vid Teknikniska Högskolans Studentkår
 
-## Getting Started
+## Komma igång
+
+I skapandet av denna sångbok har verktyg som kan vara främmande för många valts att användas. De kan verka skrämmande i början men deras har flera styrkor som fick mig att välja dem.
+
+* [Github](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+Denna sångbok har skrivits med hjälp av formateringsspråket Latex (uttalas Latesch/Latosch). En bra introduktion till Latex är denna bok:
+
+* **Tobias Oetiker** - [The not so short introduction to Latex](https://tobi.oetiker.ch/lshort/lshort.pdf)
+
+Som läsaren även 
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
